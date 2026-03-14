@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body {
+            background: #f7f7fc;
+        }
+
+        #sidebar-mount {
+            background: #111;
+        }
+    </style>
+    <meta name="description" content="TypeScript Installation Study Guide" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <title>TypeScript: Installation</title>
+</head>
+
+<body data-page="installation">
+    <a class="skip-link" href="#overview">Skip to content</a>
+    <header class="topic-bar">
+        <div class="topic-bar__title">
+            <button class="nav-toggle" type="button" aria-controls="sidebar-mount" aria-expanded="false">
+                ☰ <span class="sr-only">Menu</span>
+            </button>
+            <h1>TypeScript: Installation</h1>
+        </div>
+
+        <nav class="quick-links" aria-label="On this page">
+            <a href="#overview">Overview</a>
+            <a href="#keywords">Keywords</a>
+            <a href="#code-keywords">Code Keywords</a>
+            <a href="#code-examples">Code Examples</a>
+            <a href="#questions">Questions</a>
+            <a href="#resources">Resources</a>
+            <a href="#todo">TODO</a>
+        </nav>
+    </header>
+    <div id="sidebar-mount"></div>
+
+    <main class="content">
+        <!-- Overview -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <ul>
+                <li>One of the big disadvantages of TypeScript is that it requires a compilation step to convert
+                    TypeScript code into JavaScript.</li>
+                <li>The .ts files do not run in the browser directly; they need to be compiled to JavaScript first.</li>
+                <li>If you are running a TypeScript project for the backend for Node.js, you will need to use a tool
+                    like ts-node to run TypeScript code directly.</li>
+                <img src="../assets/images/compilationStep.png" alt="Compilation Step" class="code-image" />
+                <li>You will need to install a TypeScript compiler to convert TypeScript code into JavaScript.</li>
+                <li>The TypeScript compiler is called tsc and it can be installed globally using npm.</li>
+                <li>To install TypeScript globally, you can run the following command in your terminal:</li>
+                <pre><code>npm install -g typescript</code></pre>
+                <li>You can also install TypeScript locally in a project by running:</li>
+                <pre><code>npm install --save-dev typescript</code></pre>
+                <li>NPM (Node Package Manager) is required to install TypeScript.</li>
+                <li>After installation, you can check the TypeScript version by running:</li>
+                <pre><code>tsc --version</code></pre>
+                <li>Once TypeScript is installed, you can compile your TypeScript files using the tsc command followed
+                    by the file name:</li>
+                <pre><code>tsc yourfile.ts</code></pre>
+            </ul>
+        </section>
+
+        <!-- Keywords -->
+        <section id="keywords">
+            <h2>Keywords</h2>
+            <dl>
+                <dt>HTML</dt>
+            </dl>
+        </section>
+
+        <!-- Code Keywords -->
+        <section id="code-keywords">
+            <h2>Code Keywords</h2>
+            <p class="code-note">The <code>&lt;!DOCTYPE html&gt;</code> declaration defines the document type and
+                version of
+                HTML.</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-keyword">!DOCTYPE</span> <span class="code-doctype">html</span><span class="code-bracket">&gt;</span></code></pre>
+        </section>
+
+        <!-- Code Examples -->
+        <section id="code-examples">
+            <h2>Code Examples</h2>
+            <h3>Basic HTML Document Structure</h3>
+            <p class="code-note">This is a basic structure of an HTML document:</p>
+            <pre><code><span class="code-bracket">&lt;</span><span class="code-keyword">!DOCTYPE</span> <span class="code-doctype">html</span><span class="code-bracket">&gt;</span>
+<span class="code-bracket">&lt;</span><span class="code-tag-name">html</span> <span class="code-attr">lang</span>=<span class="code-value">"en"</span><span class="code-bracket">&gt;</span>
+<span class="code-bracket">&lt;</span><span class="code-tag-name">head</span><span class="code-bracket">&gt;</span>
+    <span class="code-bracket">&lt;</span><span class="code-tag-name">meta</span> <span class="code-attr">charset</span>=<span class="code-value">"UTF-8"</span><span class="code-bracket">&gt;</span>
+    <span class="code-bracket">&lt;</span><span class="code-tag-name">title</span><span class="code-bracket">&gt;</span>My First Page<span class="code-bracket">&lt;/</span><span class="code-tag-name">title</span><span class="code-bracket">&gt;</span>
+<span class="code-bracket">&lt;/</span><span class="code-tag-name">head</span><span class="code-bracket">&gt;</span>
+<span class="code-bracket">&lt;</span><span class="code-tag-name">body</span><span class="code-bracket">&gt;</span>
+    <span class="code-bracket">&lt;</span><span class="code-tag-name">h1</span><span class="code-bracket">&gt;</span>Hello World<span class="code-bracket">&lt;/</span><span class="code-tag-name">h1</span><span class="code-bracket">&gt;</span>
+<span class="code-bracket">&lt;/</span><span class="code-tag-name">body</span><span class="code-bracket">&gt;</span>
+<span class="code-bracket">&lt;/</span><span class="code-tag-name">html</span><span class="code-bracket">&gt;</span></code></pre>
+        </section>
+
+        <!-- Questions  -->
+        <section id="questions">
+            <h2>Questions</h2>
+            <ul class="question-list">
+            </ul>
+        </section>
+
+        <!--Resources -->
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li>
+                    <a target="_blank" rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/understanding-typescript/learn/lecture/17751414#content">
+                        Udemy: Understanding TypeScript - Section 5: Installing & Using TypeScript</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- TODO -->
+        <section id="todo">
+            <h2>TODO</h2>
+            <ul>
+                <li>Clean up the code using ChatGPT suggestions</li>
+            </ul>
+        </section>
+    </main>
+    <script src="../assets/script.js"></script>
+    <script src="../assets/sidebar.js"></script>
+    <script src="../assets/nav-toggle.js"></script>
+</body>
+
+</html>

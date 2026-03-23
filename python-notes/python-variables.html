@@ -52,6 +52,22 @@
                 <li>You don't need to use special keywords like let or const in JavaScript, or char in C#.</li>
                 <li>In Python, you just write the name of the variable on the left, followed by the assignment operator,
                     and the value you want to assign the variable on the right</li>
+                <li>A string, is a series of characters used to represent text.</li>
+                <li>Strings are written with single or double quotes, for example 'Hello' or "Hello"</li>
+                <li>Variable names can only start with a letter or an underscore (_), not a number </li>
+                <li>Variable names can only contain alphanumeric characters (a-z, A-Z, 0-9) and underscores (_)</li>
+                <li>Variable names are case-sensitive — age, Age, and AGE are all considered unique.</li>
+                <li>Variable names cannot be one of Python's reserved keywords such as if, class, or def.</li>
+                <li>Variables names should be in lowercase, with separate words separated by an underscore. This is
+                    called snake case:</li>
+                <li>You should use descriptive names for variables</li>
+                <li>Another convention is to avoid using single-letter variable names</li>
+                <li>This is different if you are in a loop or something similar, as variable names like i, j, k, and so
+                    on are common and acceptable.</li>
+                <li>The pound symbol (#) and the text that follows in the example above is called a comment.</li>
+                <li>Comments are used to provide explanations or notes for the programmer and are ignored by the
+                    interpreter.</li>
+                <li>You shouldn't use comments to explain what your variable names mean.</li>
             </ul>
         </section>
 
@@ -59,16 +75,43 @@
         <section id="keywords">
             <h2>Keywords</h2>
             <dl>
-
+                <dt>Variable</dt>
+                <dd>A variable is a named location in memory that can hold a value. It allows
+                    you to store and manipulate data in your programs.</dd>
+                <dt>Assignment Operator</dt>
+                <dd>The assignment operator (=) is used to assign a value to a variable. It
+                    ></dd>
+                <dt>String</dt>
+                <dd>A string is a sequence of characters used to represent text. In Python,
+                    strings are enclosed in single quotes (' ') or double quotes (" ").</dd>
+                <dt>Snake Case</dt>
+                <dd>Snake case is a naming convention where words are separated by underscores (_). It is commonly used
+                    for variable names in Python.</dd>
+                <dt>Comment</dt>
+                <dd>A comment is a piece of text in a program that is ignored by the interpreter. It is used to provide
+                    explanations or notes for the programmer.</dd>
             </dl>
         </section>
 
         <!-- Code Keywords -->
         <section id="code-keywords">
             <h2>Code Keywords</h2>
-            <p class="code-note"></p>
-            <pre><code><span class="code-variable">name</span> = <span class="code-string">'John Doe'</span>
-<span class="code-variable">age</span> = <span class="code-number">25</span></code></pre>
+            <dl>
+                <dt><span class="code-variable">name</span></dt>
+                <dd>A variable that can hold a string value representing a person's name.</dd>
+                <dt><span class="code-variable">age</span></dt>
+                <dd>A variable that can hold a numeric value representing a person's age.</dd>
+                <dt><span class="code-variable">my_variable_name</span></dt>
+                <dd>A variable that follows the snake case naming convention, which is commonly used in Python.</dd>
+                <dt><span class="code-string">'John Doe'</span></dt>
+                <dd>A string value representing a person's name.</dd>
+                <dt><span class="code-number">25</span></dt>
+                <dd>A numeric value representing a person's age.</dd>
+                <dt><span class="code-comment"># This is a comment</span></dt>
+                <dd>A comment is a piece of text in a program that is ignored by the interpreter. It is used to provide
+                    explanations or notes for the programmer.</dd>
+            </dl>
+
         </section>
         <!-- Code Examples -->
         <section id="code-examples">
@@ -76,27 +119,31 @@
             <p class="code-note">Here's an example of how to declare name and age variables</p>
             <pre><code><span class="code-variable">name</span> = <span class="code-string">'John Doe'</span>
 <span class="code-variable">age</span> = <span class="code-number">25</span></code></pre>
+            <p class="code-note"> This is called snake case, and it's a common convention for naming variables in
+                Python. It makes variable names more readable by separating words with underscores.</p>
+            <pre><code><span class="code-variable">my_variable_name</span> = <span class="code-string">'freeCodeCamp'</span></code></pre>
+            <p class="code-note">In Python, comments are used to provide explanations or notes for the programmer. They
+                are ignored by the interpreter.</p>
+            <pre><code><span class="code-comment"># This is a comment</span></code></pre>
+            <p class="code-note">You can also have multi-line comments using triple quotes.</p>
+            <pre><code><span class="code-comment">"""
+This is a multi-line comment
+It can span multiple lines
+"""</span></code></pre>
+            <p class="code-note">You can also apply this for a multi-line comment</p>
+            <pre><code><span class="code-comment"># This is a 
+            # multi-line 
+            # comment</span></code></pre>
         </section>
-        <!-- Code Examples -->
-        <section id="code-examples">
-            <span class="code-bracket">&lt;/</span><span class="code-tag-name">head</span><span
-                class="code-bracket">&gt;</span>
-            <span class="code-bracket">&lt;</span><span class="code-tag-name">body</span><span
-                class="code-bracket">&gt;</span>
-            <span class="code-bracket">&lt;</span><span class="code-tag-name">h1</span><span
-                class="code-bracket">&gt;</span>Hello World<span class="code-bracket">&lt;/</span><span
-                class="code-tag-name">h1</span><span class="code-bracket">&gt;</span>
-            <span class="code-bracket">&lt;/</span><span class="code-tag-name">body</span><span
-                class="code-bracket">&gt;</span>
-            <span class="code-bracket">&lt;/</span><span class="code-tag-name">html</span><span
-                class="code-bracket">&gt;</span></code></pre>
-        </section>
+
 
         <!-- Questions  -->
         <section id="questions">
             <h2>Questions</h2>
             <ul class="question-list">
-
+                <li>What is the correct way to declare a variable in Python?</li>
+                <li>What are the naming conventions for variables in Python?</li>
+                <li>Why should you avoid using single-letter variable names?</li>
             </ul>
         </section>
 

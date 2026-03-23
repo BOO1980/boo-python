@@ -34,6 +34,9 @@
   --code-tag: #2563eb;
   --code-attr: #7c3aed;
   --code-value: #b45309;
+  --code-variable: #16a34a;
+  --code-number: #5986aa;
+  --code-string: #ce71b2;
 
   --code-selector: hsl(29, 90%, 49%);
   --code-property: hsl(197, 80%, 16%);
@@ -464,6 +467,17 @@ pre code {
   color: var(--code-value);
 }
 
+.code-variable {
+  color: var(--code-variable);
+}
+
+.code-number {
+  color: var(--code-number);
+}
+
+.code-string {
+  color: var(--code-string);
+}
 .code-declaration {
   display: inline-block;
   background: var(--accent-soft);

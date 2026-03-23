@@ -18,7 +18,7 @@
 
   const sidebarHTML = `
     <aside class="sidebar" aria-label="Main navigation">
-      <h2 class="sidebar-title">BOO TypeScript Vault</h2>
+      <h2 class="sidebar-title">BOO Python Vault</h2>
 
       <details class="nav-group" open>
         <summary>Home</summary>
@@ -29,8 +29,7 @@
       <details class="nav-group" open>
         <summary>Notes</summary>
         <nav class="nav-list" aria-label="Notes">
-          <a href="${href('typescript-notes/typescript-overview.html')}" data-page="overview">TypeScript: Overview</a>
-          <a href="${href('typescript-notes/typescript-installation.html')}" data-page="installation">TypeScript: Installation</a>
+          <a href="${href('python-notes/python-overview.html')}" data-page="overview">Python: Overview</a>
         </nav>
       </details>
       <details class="nav-group">
